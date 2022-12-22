@@ -74,7 +74,7 @@ public class BoggleSolver {
         }
     }
 
-    public boolean add(String s, int index) {
+    private boolean add(String s, int index) {
         Node cur = root;
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
